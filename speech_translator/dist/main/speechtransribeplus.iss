@@ -8,7 +8,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{06AE7104-D9AC-4AD6-BF02-EE4759B5C3B4}
+AppId={{E6469563-A3E9-4D69-B5F5-2C8F637A67D7}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -18,6 +18,7 @@ DisableProgramGroupPage=yes
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\jaffe\OneDrive\Documents
 OutputBaseFilename=speechtranscribeplusinstaller64
+SetupIconFile=C:\Users\jaffe\Downloads\icons8-globe-48.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -30,7 +31,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\jaffe\Downloads\TranslationApp\speech_translator\dist\main\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\jaffe\Downloads\TranslationApp\speech_translator\dist\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\jaffe\Downloads\TranslationApp\speech_translator\dist\main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
