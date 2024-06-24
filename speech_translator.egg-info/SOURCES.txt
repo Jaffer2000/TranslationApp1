@@ -1,0 +1,9 @@
+README.md
+setup.py
+speech_translator/__init__.py
+speech_translator.egg-info/PKG-INFO
+speech_translator.egg-info/SOURCES.txt
+speech_translator.egg-info/dependency_links.txt
+speech_translator.egg-info/entry_points.txt
+speech_translator.egg-info/requires.txt
+speech_translator.egg-info/top_level.txt
